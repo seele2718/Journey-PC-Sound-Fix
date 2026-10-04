@@ -1,0 +1,12 @@
+__pycache__/
+.DS_Store
+*.py[cod]
+source/build/
+*.exe
+*.dll
+*.mkv
+*.mp4
+*.bnk
+*.ogg
+JourneySoundPerformance-*.bin
+JourneyReverb*.bin

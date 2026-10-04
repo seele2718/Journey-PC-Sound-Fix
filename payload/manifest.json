@@ -1,0 +1,1058 @@
+{
+  "schema": "journey-sound-fix-payload-v1",
+  "version": "0.3.0",
+  "label": "normal",
+  "baseSize": 59918032,
+  "baseSha256Provenance": "16a7c176b9cce893e0ca72c5d0e4b2e7377c4fabec179f95a5e1331b6c2a788f",
+  "baseSectionCount": 7,
+  "baseExceptionSize": 264204,
+  "baseExceptionSha256": "7a8dc96a2fda704dba7dbd888a62b29b1be75eb689914e478cba2059a744093c",
+  "targetSize": 60273152,
+  "targetSha256": "735d1c5dcd182048d483d7b54bceb581b2bdf6352baeb6779594f198aede557d",
+  "referenceChecksum": 60281613,
+  "records": [
+    {
+      "name": "localized original-image change 1",
+      "offset": 342,
+      "before": "07",
+      "after": "0a",
+      "contextOffset": 330,
+      "context": "000000000000504500006486070074cd0d5f00000000000000"
+    },
+    {
+      "name": "localized original-image change 2",
+      "offset": 365,
+      "before": "2055",
+      "after": "885a",
+      "contextOffset": 353,
+      "context": "000000f00023000b020e1000205500009258080000000010f3ad"
+    },
+    {
+      "name": "localized original-image change 3",
+      "offset": 369,
+      "before": "92",
+      "after": "94",
+      "contextOffset": 357,
+      "context": "0023000b020e1000205500009258080000000010f3ad080010"
+    },
+    {
+      "name": "localized original-image change 4",
+      "offset": 417,
+      "before": "20b1",
+      "after": "40b7",
+      "contextOffset": 405,
+      "context": "00000006000000000000000020b1080004000000000000020020"
+    },
+    {
+      "name": "localized original-image change 5",
+      "offset": 497,
+      "before": "e09d",
+      "after": "70b2",
+      "contextOffset": 485,
+      "context": "02000000a0a20868400b0000e09d080c08040000000000000000"
+    },
+    {
+      "name": "localized original-image change 6",
+      "offset": 500,
+      "before": "0c08",
+      "after": "7c0d",
+      "contextOffset": 488,
+      "context": "00a0a20868400b0000e09d080c08040000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 7",
+      "offset": 608,
+      "before": "6c1f",
+      "after": "0020",
+      "contextOffset": 596,
+      "context": "000000002e746578740000006c1f550000100000002055000004"
+    },
+    {
+      "name": "localized original-image change 8",
+      "offset": 728,
+      "before": "0c",
+      "after": "3c",
+      "contextOffset": 716,
+      "context": "400000c02e706461746100000c08040000e09d08000a040000"
+    },
+    {
+      "name": "localized original-image change 9",
+      "offset": 880,
+      "before": "0000000000",
+      "after": "2e746e6131",
+      "contextOffset": 868,
+      "context": "0000000000000000000000600000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 10",
+      "offset": 888,
+      "before": "0000",
+      "after": "6c0a",
+      "contextOffset": 876,
+      "context": "0000006000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 11",
+      "offset": 893,
+      "before": "000000",
+      "after": "20b108",
+      "contextOffset": 881,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 12",
+      "offset": 897,
+      "before": "00",
+      "after": "0c",
+      "contextOffset": 885,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 13",
+      "offset": 901,
+      "before": "000000",
+      "after": "489203",
+      "contextOffset": 889,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 14",
+      "offset": 916,
+      "before": "00",
+      "after": "20",
+      "contextOffset": 904,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 15",
+      "offset": 919,
+      "before": "000000000000",
+      "after": "602e6a727678",
+      "contextOffset": 907,
+      "context": "000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 16",
+      "offset": 928,
+      "before": "000000",
+      "after": "0b5a05",
+      "contextOffset": 916,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 17",
+      "offset": 933,
+      "before": "000000",
+      "after": "30b108",
+      "contextOffset": 921,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 18",
+      "offset": 937,
+      "before": "0000",
+      "after": "5c05",
+      "contextOffset": 925,
+      "context": "0000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 19",
+      "offset": 941,
+      "before": "000000",
+      "after": "549203",
+      "contextOffset": 929,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 20",
+      "offset": 956,
+      "before": "00",
+      "after": "20",
+      "contextOffset": 944,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 21",
+      "offset": 959,
+      "before": "000000000000",
+      "after": "602e6a727664",
+      "contextOffset": 947,
+      "context": "000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 22",
+      "offset": 968,
+      "before": "00",
+      "after": "b0",
+      "contextOffset": 956,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 23",
+      "offset": 973,
+      "before": "000000",
+      "after": "30b708",
+      "contextOffset": 961,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 24",
+      "offset": 977,
+      "before": "00",
+      "after": "02",
+      "contextOffset": 965,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 25",
+      "offset": 981,
+      "before": "000000",
+      "after": "b09703",
+      "contextOffset": 969,
+      "context": "000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 26",
+      "offset": 996,
+      "before": "00",
+      "after": "40",
+      "contextOffset": 984,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 27",
+      "offset": 999,
+      "before": "00",
+      "after": "c0",
+      "contextOffset": 987,
+      "context": "00000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 28",
+      "offset": 1197439,
+      "before": "488b9c2458010000",
+      "after": "e8fcde9e08909090",
+      "contextOffset": 1197427,
+      "context": "400100000f28b42400010000488b9c24580100000f28bc24f00000004881c410"
+    },
+    {
+      "name": "localized original-image change 29",
+      "offset": 2414518,
+      "before": "480f47f8",
+      "after": "0f1f4000",
+      "contextOffset": 2414506,
+      "context": "05cdcd4300488d3d6a5c3900480f47f84032f6eb6e488d3d825c3900"
+    },
+    {
+      "name": "localized original-image change 30",
+      "offset": 2842913,
+      "before": "9000",
+      "after": "c229",
+      "contextOffset": 2842901,
+      "context": "3848c744242000000000e86c90000084c00f84e4000000f3410f"
+    },
+    {
+      "name": "localized original-image change 31",
+      "offset": 2843816,
+      "before": "48c74424280000000066c74424300000",
+      "after": "e8c3be29009090909090909090909090",
+      "contextOffset": 2843804,
+      "context": "442420f30f11442420498bcb48c74424280000000066c7442430000040887c2424e80efbffff8983"
+    },
+    {
+      "name": "localized original-image change 32",
+      "offset": 2872859,
+      "before": "ff153f502900",
+      "after": "e8a04f850890",
+      "contextOffset": 2872847,
+      "context": "8d8424a0000000ba01000000ff153f5029004c8b642470b0014c8b742468"
+    },
+    {
+      "name": "localized original-image change 33",
+      "offset": 2873385,
+      "before": "ff15195b2900",
+      "after": "e8424c850890",
+      "contextOffset": 2873373,
+      "context": "2900488b0dbaf5a103488b09ff15195b2900488b0daaf5a1034c8d442430"
+    },
+    {
+      "name": "localized original-image change 34",
+      "offset": 2876433,
+      "before": "ff1509502900",
+      "after": "e87a45850890",
+      "contextOffset": 2876421,
+      "context": "245848897424284c89742420ff15095029004533f6488d9fc8000000418b"
+    },
+    {
+      "name": "localized original-image change 35",
+      "offset": 2878992,
+      "before": "0d0000",
+      "after": "378508",
+      "contextOffset": 2878980,
+      "context": "0100004803c8488d0c8fe85d0d0000d1ee41ffc6d1c34883c50c41"
+    },
+    {
+      "name": "localized original-image change 36",
+      "offset": 2881761,
+      "before": "ff15b1392900",
+      "after": "e84d31850890",
+      "contextOffset": 2881749,
+      "context": "24d0000000488d153feeffffff15b1392900488b8c24d00000000f28cfff"
+    },
+    {
+      "name": "localized original-image change 37",
+      "offset": 2882224,
+      "before": "ff155a382900",
+      "after": "e8fb2b850890",
+      "contextOffset": 2882212,
+      "context": "2900488b8c24d000000033d2ff155a382900488b8424d00000004881c4a8"
+    },
+    {
+      "name": "localized original-image change 38",
+      "offset": 2884052,
+      "before": "410fb75212",
+      "after": "e8c7228508",
+      "contextOffset": 2884040,
+      "context": "aee0000000498bbee8000000410fb75212b8000100004533e46685d075"
+    },
+    {
+      "name": "localized original-image change 39",
+      "offset": 2884107,
+      "before": "498b5568418b4a44",
+      "after": "e96f138508909090",
+      "contextOffset": 2884095,
+      "context": "d2448d59f8440f48d94d03da498b5568418b4a44488bda488b42084438601975"
+    },
+    {
+      "name": "localized original-image change 40",
+      "offset": 2884333,
+      "before": "1ff4ffff",
+      "after": "9f238508",
+      "contextOffset": 2884321,
+      "context": "488b53284c8d4570498bcee81ff4ffff4885ff0f84a8090000418bc7"
+    },
+    {
+      "name": "localized original-image change 41",
+      "offset": 2885530,
+      "before": "223b0000",
+      "after": "721f8508",
+      "contextOffset": 2885518,
+      "context": "8b96c00000004889442420e8223b0000488985000200004885c00f84"
+    },
+    {
+      "name": "localized original-image change 42",
+      "offset": 2890382,
+      "before": "dee0ffff",
+      "after": "7e0a8508",
+      "contextOffset": 2890370,
+      "context": "00f3410f108c9618060000e8dee0ffff33c0e9d5f7ffff8b4204488d"
+    },
+    {
+      "name": "localized original-image change 43",
+      "offset": 2890521,
+      "before": "53e0ffff",
+      "after": "93098508",
+      "contextOffset": 2890509,
+      "context": "488d4c2430f20f11442430e853e0ffff33c0e94af7ffffe8c70e0000"
+    },
+    {
+      "name": "localized original-image change 44",
+      "offset": 2893144,
+      "before": "ff15b20d2900",
+      "after": "e8b300850890",
+      "contextOffset": 2893132,
+      "context": "0e2900488b8bc000000033d2ff15b20d2900f08323bff64424581074130f"
+    },
+    {
+      "name": "localized original-image change 45",
+      "offset": 2897660,
+      "before": "ff15fefb2800",
+      "after": "e84df1840890",
+      "contextOffset": 2897648,
+      "context": "08488b9080000000488b5220ff15fefb2800488b4518488b0ff30f1088d0"
+    },
+    {
+      "name": "localized original-image change 46",
+      "offset": 2897852,
+      "before": "000b0000",
+      "after": "c0ef8408",
+      "contextOffset": 2897840,
+      "context": "8b92a00000004889442420e8000b00008b8e9000000048c1e1054c89"
+    },
+    {
+      "name": "localized original-image change 47",
+      "offset": 2899434,
+      "before": "ff15a8f42800",
+      "after": "e867ec840890",
+      "contextOffset": 2899422,
+      "context": "8efbffff48c7476800000000ff15a8f42800488b0e488bd7ff15fcf42800"
+    },
+    {
+      "name": "localized original-image change 48",
+      "offset": 2899529,
+      "before": "ff15c1f42800",
+      "after": "e8a2e9840890",
+      "contextOffset": 2899517,
+      "context": "d2ff15c4f52800488b0e33d2ff15c1f42800865f7e488b5c2450488b06c6"
+    },
+    {
+      "name": "localized original-image change 49",
+      "offset": 2913100,
+      "before": "803d955aa10300",
+      "after": "39c09090909090",
+      "contextOffset": 2913088,
+      "context": "48034db8448b71444c0375c0803d955aa1030074318b451049c7c0ffffffff"
+    },
+    {
+      "name": "localized original-image change 50",
+      "offset": 2914983,
+      "before": "4c8b4768488d7768",
+      "after": "e954998408909090",
+      "contextOffset": 2914971,
+      "context": "45d04533db4c89442430ebae4c8b4768488d77688bd9498bc048035db8498b48"
+    },
+    {
+      "name": "localized original-image change 51",
+      "offset": 2915069,
+      "before": "803de452a10300",
+      "after": "39c09090909090",
+      "contextOffset": 2915057,
+      "context": "498bc0493bc00f854effffff803de452a103004c8d8d48050000f34c0f2c43"
+    },
+    {
+      "name": "localized original-image change 52",
+      "offset": 2915111,
+      "before": "488bf84889442460",
+      "after": "e934998408909090",
+      "contextOffset": 2915099,
+      "context": "44899d48050000e8d9180000488bf8488944246048837820000f8407ffffff8b"
+    },
+    {
+      "name": "localized original-image change 53",
+      "offset": 2915478,
+      "before": "803d4b51a10300",
+      "after": "39c09090909090",
+      "contextOffset": 2915466,
+      "context": "6341184803c866440944910a803d4b51a103007464488b8fe0000000ff153c"
+    },
+    {
+      "name": "localized original-image change 54",
+      "offset": 2921722,
+      "before": "33d2488bc8",
+      "after": "e9d9808408",
+      "contextOffset": 2921710,
+      "context": "8d50108d4858ff15de98280033d2488bc8488bd8448d4258e87d191d00"
+    },
+    {
+      "name": "localized original-image change 55",
+      "offset": 5579632,
+      "before": "0000000000",
+      "after": "48c7442430",
+      "contextOffset": 5579620,
+      "context": "0a7403e904aae8ff000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 56",
+      "offset": 5579641,
+      "before": "0000000000",
+      "after": "0fb7836001",
+      "contextOffset": 5579629,
+      "context": "0000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 57",
+      "offset": 5579648,
+      "before": "000000000000",
+      "after": "6689442438c3",
+      "contextOffset": 5579636,
+      "context": "000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 58",
+      "offset": 5579664,
+      "before": "00000000000000000000",
+      "after": "410fb74610668985f802",
+      "contextOffset": 5579652,
+      "context": "00000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 59",
+      "offset": 5579676,
+      "before": "0000000000",
+      "after": "e9efcdd6ff",
+      "contextOffset": 5579664,
+      "context": "0000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "localized original-image change 60",
+      "offset": 58931213,
+      "before": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "after": "20b1087f21b108e822b1087f21b108d821b108f822b108d821b1080622b1080823b1080622b108e722b1081823b108",
+      "contextOffset": 58931201,
+      "context": "235500c3235500980d6e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "prerequisites": [
+    {
+      "name": "original section layout and reserved payload slots",
+      "offset": 600,
+      "bytes": "2e746578740000006c1f5500001000000020550000040000000000000000000000000000200000602e7264617461000012501d000030550000521d0000245500000000000000000000000000400000402e64617461000000644d2b080090720000ba0c0300767200000000000000000000000000400000c02e706461746100000c08040000e09d08000a040000307f03000000000000000000000000400000405f5244415441000030a4000000f0a10800a60000003a8303000000000000000000000000400000402e7273726300000068400b0000a0a20800420b0000e08303000000000000000000000000400000402e62696e64000000d024030000f0ad08d024030000228f0300000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "unique": false
+    },
+    {
+      "name": "image base and alignments",
+      "offset": 384,
+      "bytes": "00000040010000000010000000020000",
+      "unique": false
+    },
+    {
+      "name": "image size and header extent",
+      "offset": 416,
+      "bytes": "0020b10800040000",
+      "unique": false
+    },
+    {
+      "name": "import-directory location",
+      "offset": 480,
+      "bytes": "142e72006c020000",
+      "unique": false
+    },
+    {
+      "name": "unsigned-image contract",
+      "offset": 504,
+      "bytes": "0000000000000000",
+      "unique": false
+    },
+    {
+      "name": "native target 0x2c0310",
+      "offset": 2881296,
+      "bytes": "4c8bdc55565741554881eca8000000488b05bad6a103488bf1498d4b08498bf8",
+      "unique": true
+    },
+    {
+      "name": "native target 0x2c4ec0",
+      "offset": 2900672,
+      "bytes": "48895c241048896c2418488974242057415641574883ec60488bf10f29742450",
+      "unique": true
+    },
+    {
+      "name": "native target 0x2bdfcd",
+      "offset": 2872269,
+      "bytes": "488b1d0cfaa1034533c0ba000400004c",
+      "unique": true
+    },
+    {
+      "name": "native target 0x2be108",
+      "offset": 2872584,
+      "bytes": "488b05d1f8a103488d35c28d3c004c8b",
+      "unique": true
+    },
+    {
+      "name": "native target 0x2bf320",
+      "offset": 2877216,
+      "bytes": "40534883ec30488bd985d2752a4585c07525488d54242048c744242000000000",
+      "unique": true
+    },
+    {
+      "name": "native target 0x2c4570",
+      "offset": 2898288,
+      "bytes": "48895c24084889742410574883ec30498bd9418bf8488bf185d20f85a9000000",
+      "unique": true
+    },
+    {
+      "name": "Tone: first search",
+      "offset": 2914983,
+      "bytes": "4c8b4768488d77688bd9498bc048035db8498b4808486353444c8bd24c0355c080791900751a0f1f003951207306488b4910eb06488bc1488b098079190074e9493bc074053b50207303498bc0493bc00f854effffff",
+      "unique": true
+    },
+    {
+      "name": "Tone: creator return and search",
+      "offset": 2915111,
+      "bytes": "488bf8488944246048837820000f8407ffffff8b5344488b1e89542438488bc3488b4b088079190075173951207306488b4910eb06488bd9488b098079190074e9483bd874053b5320734db930000000e8b430dbff488b0e4c8bc348894424204889084c8d4820488b1633c948895008488b164889501066c7401800008b542438418911488d553849894908488bcee8b5090000488b5d3848897b28488d542460488bbd30050000488d8fb0000000e87591dcff8b85480500000187f0000000e95cfeffff",
+      "unique": true
+    },
+    {
+      "name": "Tone: playback lookup cleanup",
+      "offset": 2884019,
+      "bytes": "498bbee80000004d03d34885ff7412f0ff47084d8baee0000000498bbee8000000410fb75212b8000100004533e46685d07505458bdceb208bcab80040000023c881c900000500c1e90c6685d2448d59f8440f48d94d03da498b5568418b4a44488bda488b42084438601975173948207306488b4010eb06488bd8488b004438601974e9483bda74053b4b207303488bda410fb65205498bcee82ffeffff410fb64a12498bd3410fbf4206450fb74a0e450fb7420cc0e906f6d1894574410fbe420483e101ffc9f30f114570898d80000000b9c00000002bc84c89a5b800000033c0898d8400000048898588000000488d8d880000004889859000000048898598000000488985a0000000488985a8000000488985b0000000410fbe420a894578410fbe420b89457ce88f8d0000488b53284c8d4570498bcee81ff4ffff4885ff0f84a8090000418bc7f00fc1470883f8010f8597090000488b07488bcfff10f0440fc17f0c4183ff010f857f090000488b07488bcfff500833c0e93b0f0000",
+      "unique": true
+    },
+    {
+      "name": "Tone: creator",
+      "offset": 2921472,
+      "bytes": "48895c241048896c241856574154415641574881ec20010000418bd88bf2488bf933d241b8d0000000488d4c24484d8bf1e8521a1d008b4f08488d6f108b45044533e42bf1c7442430e800000083ee104489642438895c244041b802110010c744244402000000488d14294c89a42450010000897424348944243c4d85f67444d1ee41b80219000089742434488bcac7442444010000004c8bca458bd4742290410fb7014d8d490266c1f808488d4901348041ffc28841ff8b742434443bd672df418936488b051539a103488d8c245001000048894c24204c8d4c2430488b08ff15329f280085c00f85c40000008d50108d4858ff15de98280033d2488bc8488bd8448d4258e87d191d004885db0f8496000000488bbc2450010000488d1599e93b0041b80600000048c743180f000000488bcbe8e717dbff4489632c4c8d432c48897b204c8d7334448963284489633045892666c7434c0001c74350ffffffff0f1045000f11433c4885ed750a33c04889433c488943444885ff74304c8d4b304c8974242033d2488bcfff15af9e2800418b060faf4330c7432802000000c1e803894338488bc3eb0a498bdc488bc3eb0233c04c8d9c2420010000498b5b38498b6b40498be3415f415e415c5f5ec3",
+      "unique": true
+    },
+    {
+      "name": "Tone: quality stream branch",
+      "offset": 2913088,
+      "bytes": "48034db8448b71444c0375c0803d955aa1030074318b451049c7c0ffffffff89414449ffc043803c060075f6498bd6488d4d00e8d836dbff33d2488d4d00e85d39faff4533db",
+      "unique": true
+    },
+    {
+      "name": "Tone: quality Tone arguments",
+      "offset": 2915069,
+      "bytes": "803de452a103004c8d8d48050000f34c0f2c434c8b53484d0f44cb498bca44899d48050000e8d9180000",
+      "unique": true
+    },
+    {
+      "name": "Tone: quality final branch",
+      "offset": 2915478,
+      "bytes": "803d4b51a103007464488b8fe0000000ff153cb12800488b5d104c89afe00000004489afec0000004885db74408bc3ba001000008bc88987ec000000ff1500b128004883fe10488d55004c8bc3488987e0000000480f435500488bc8e861311d008b87ec0000000105e950a103",
+      "unique": true
+    },
+    {
+      "name": "Tone: qword insertion",
+      "offset": 2973712,
+      "bytes": "4889742420574883ec404883790800488bfa4c8b11488bf17523488b4424704d8bca41b0014889442428e81180e7ff488bc7488b7424684883c4405fc3498b1148896c2460498b2a4c3bc57535493b50200f83ba010000488b4424704d8bc841b0014889442428488bd7e8d17fe7ff488b6c2460488bc7488b7424684883c4405fc34d3bc2753c498b4a10483951200f837c010000488b4424704c8bc9488bce48894424284533c0488bd7e8907fe7ff488b6c2460488bc7488b7424684883c4405fc3498b4820483bca0f86a20000004180781900498bc074064d8b4810eb4d4d8b08418079190074284d8b480841807919007513493b01750e498bc14d8b4908418079190074ed807819004c0f45c8eb1b498b41108078190075110f1f40004c8bc8488b40108078190074f349395120733c498b4110488bd7488bce80781900488b44247048894424280f85a50000004d8bc841b001e8e47ee7ff488b6c2460488bc7488b7424684883c4405fc3483bca0f83990000004d8b4810498bc0450fb659194584db74214d8b48084180791900753b493b41107535498bc14d8b4908418079190074eceb25498b0980791900751c0f1f4000660f1f840000000000488b014c8bc9488bc88078190074f14d3bca7406493b51207337488b442470488bd74889442428488bce4584db0f8461ffffff4d8bc84533c0e8427ee7ff488b6c2460488bc7488b7424684883c4405fc3498b4a0841b00148895c245880791900751c483b51204c8bd1410f92c07305488b09eb04488b49108079190074e4498bda4584c00f84830000004c3bd57525488b442470488d5424504d8bca488944242841b001488bcee8d37de7ff488b18e98d00000041807a19007406498b5a10eb4c498b02807819007429498b4208807819007512483b18750d488bd8488b40088078190074ee807b1900480f45c3488bd8eb1a488bd8488b401080781900750d488bd8488b40108078190074f348395320731f488b442470488d5424304d8bca4889442428488bcee8527de7ff488b18eb0f488b4c2470ba30000000e8e22e1c00488b6c2460488bc7488b74246848891f488b5c24584883c4405fc3",
+      "unique": true
+    },
+    {
+      "name": "Tone: bank loader frame",
+      "offset": 2911968,
+      "bytes": "488954241048894c2408555356574154415541564157488dac2418fbffff4881ece8050000",
+      "unique": true
+    },
+    {
+      "name": "Tone: record unload",
+      "offset": 2915712,
+      "bytes": "48895c24084889742410574883ec20488b99b0000000488bf1483b99b8000000742f488b3b488b4f20ff15a1b62800488bcfe8092edbffba58000000488bcfe830141d004883c308483b9eb800000075d1",
+      "unique": true
+    },
+    {
+      "name": "Tone: node destroy",
+      "offset": 2911162,
+      "bytes": "4c8b7668498bc6498b6e08488bdd44387d19752c6690488b5310488d4e68e89370e8ff488b1bba30000000488bcde807261d00488beb44387b1974da488b46684c897008ba30000000488b46684c8930488b46684c8970104c897e70488b4e68e8d5251d00",
+      "unique": true
+    },
+    {
+      "name": "import descriptor: fmod64.dll",
+      "offset": 7479828,
+      "bytes": "183f72000000000000000000c2437200983e5500",
+      "unique": false
+    },
+    {
+      "name": "import DLL: fmod64.dll",
+      "offset": 7485378,
+      "bytes": "666d6f6436342e646c6c00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553e98",
+      "offset": 7484184,
+      "bytes": "7272720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553e98",
+      "offset": 5583512,
+      "bytes": "7272720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?setCallback@ChannelControl@FMOD@@QEAA?AW4FMOD_RESULT@@P6A?AW43@PEAUFMOD_CHANNELCONTROL@@W4FMOD_CHANNELCONTROL_TYPE@@W4FMOD_CHANNELCONTROL_CALLBACK_TYPE@@PEAX3@Z@Z",
+      "offset": 7497330,
+      "bytes": "f4003f73657443616c6c6261636b404368616e6e656c436f6e74726f6c40464d4f444040514541413f415734464d4f445f524553554c5440405036413f415734334050454155464d4f445f4348414e4e454c434f4e54524f4c40405734464d4f445f4348414e4e454c434f4e54524f4c5f5459504540405734464d4f445f4348414e4e454c434f4e54524f4c5f43414c4c4241434b5f5459504540405045415833405a405a00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553f00",
+      "offset": 7484288,
+      "bytes": "f26e720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553f00",
+      "offset": 5583616,
+      "bytes": "f26e720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEAVSound@2@PEAVChannelGroup@2@_NPEAPEAVChannel@2@@Z",
+      "offset": 7496434,
+      "bytes": "c9003f706c6179536f756e644053797374656d40464d4f444040514541413f415734464d4f445f524553554c54404050454156536f756e64403240504541564368616e6e656c47726f75704032405f4e504541504541564368616e6e656c403240405a00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553f10",
+      "offset": 7484304,
+      "bytes": "5e6e720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553f10",
+      "offset": 5583632,
+      "bytes": "5e6e720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?setPaused@ChannelControl@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z",
+      "offset": 7496286,
+      "bytes": "1d013f736574506175736564404368616e6e656c436f6e74726f6c40464d4f444040514541413f415734464d4f445f524553554c5440405f4e405a00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553f48",
+      "offset": 7484360,
+      "bytes": "b46c720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553f48",
+      "offset": 5583688,
+      "bytes": "b46c720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ",
+      "offset": 7495860,
+      "bytes": "43013f7570646174654053797374656d40464d4f444040514541413f415734464d4f445f524553554c544040585a00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x554020",
+      "offset": 7484576,
+      "bytes": "8c73720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x554020",
+      "offset": 5583904,
+      "bytes": "8c73720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?stop@ChannelControl@FMOD@@QEAA?AW4FMOD_RESULT@@XZ",
+      "offset": 7497612,
+      "bytes": "3e013f73746f70404368616e6e656c436f6e74726f6c40464d4f444040514541413f415734464d4f445f524553554c544040585a00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x554050",
+      "offset": 7484624,
+      "bytes": "3477720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x554050",
+      "offset": 5583952,
+      "bytes": "3477720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ",
+      "offset": 7498548,
+      "bytes": "d4003f72656c6561736540536f756e6440464d4f444040514541413f415734464d4f445f524553554c544040585a00",
+      "unique": false
+    },
+    {
+      "name": "import descriptor: KERNEL32.dll",
+      "offset": 7479848,
+      "bytes": "9030720000000000000000003845720010305500",
+      "unique": false
+    },
+    {
+      "name": "import DLL: KERNEL32.dll",
+      "offset": 7485752,
+      "bytes": "4b45524e454c33322e646c6c00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553098",
+      "offset": 7480600,
+      "bytes": "5e44720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553098",
+      "offset": 5579928,
+      "bytes": "5e44720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: GetProcAddress",
+      "offset": 7485534,
+      "bytes": "b50247657450726f634164647265737300",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5530b8",
+      "offset": 7480632,
+      "bytes": "9e44720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5530b8",
+      "offset": 5579960,
+      "bytes": "9e44720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: GetModuleHandleA",
+      "offset": 7485598,
+      "bytes": "7b024765744d6f64756c6548616e646c654100",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553260",
+      "offset": 7481056,
+      "bytes": "ec78720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553260",
+      "offset": 5580384,
+      "bytes": "ec78720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: ReleaseSemaphore",
+      "offset": 7498988,
+      "bytes": "b80452656c6561736553656d6170686f726500",
+      "unique": false
+    },
+    {
+      "name": "import descriptor: VCRUNTIME140.dll",
+      "offset": 7480088,
+      "bytes": "f037720000000000000000008e60720070375500",
+      "unique": false
+    },
+    {
+      "name": "import DLL: VCRUNTIME140.dll",
+      "offset": 7492750,
+      "bytes": "564352554e54494d453134302e646c6c00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5537a0",
+      "offset": 7482400,
+      "bytes": "3060720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5537a0",
+      "offset": 5581728,
+      "bytes": "3060720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: memset",
+      "offset": 7492656,
+      "bytes": "3e006d656d73657400",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5537c8",
+      "offset": 7482440,
+      "bytes": "aa5f720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5537c8",
+      "offset": 5581768,
+      "bytes": "aa5f720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: memcpy",
+      "offset": 7492522,
+      "bytes": "3c006d656d63707900",
+      "unique": false
+    },
+    {
+      "name": "import descriptor: api-ms-win-crt-heap-l1-1-0.dll",
+      "offset": 7480208,
+      "bytes": "503a720000000000000000000c687200d0395500",
+      "unique": false
+    },
+    {
+      "name": "import DLL: api-ms-win-crt-heap-l1-1-0.dll",
+      "offset": 7494668,
+      "bytes": "6170692d6d732d77696e2d6372742d686561702d6c312d312d302e646c6c00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5539d0",
+      "offset": 7482960,
+      "bytes": "8a61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5539d0",
+      "offset": 5582288,
+      "bytes": "8a61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: malloc",
+      "offset": 7493002,
+      "bytes": "19006d616c6c6f6300",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5539d8",
+      "offset": 7482968,
+      "bytes": "5c61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5539d8",
+      "offset": 5582296,
+      "bytes": "5c61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: _aligned_malloc",
+      "offset": 7492956,
+      "bytes": "01005f616c69676e65645f6d616c6c6f6300",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5539e0",
+      "offset": 7482976,
+      "bytes": "9e61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5539e0",
+      "offset": 5582304,
+      "bytes": "9e61720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: _aligned_free",
+      "offset": 7493022,
+      "bytes": "00005f616c69676e65645f6672656500",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x5539e8",
+      "offset": 7482984,
+      "bytes": "d061720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x5539e8",
+      "offset": 5582312,
+      "bytes": "d061720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: free",
+      "offset": 7493072,
+      "bytes": "18006672656500",
+      "unique": false
+    },
+    {
+      "name": "import descriptor: api-ms-win-crt-math-l1-1-0.dll",
+      "offset": 7480248,
+      "bytes": "a83a720000000000000000004c687200283a5500",
+      "unique": false
+    },
+    {
+      "name": "import DLL: api-ms-win-crt-math-l1-1-0.dll",
+      "offset": 7494732,
+      "bytes": "6170692d6d732d77696e2d6372742d6d6174682d6c312d312d302e646c6c00",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553a90",
+      "offset": 7483152,
+      "bytes": "6864720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553a90",
+      "offset": 5582480,
+      "bytes": "6864720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: cos",
+      "offset": 7493736,
+      "bytes": "9000636f7300",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553a98",
+      "offset": 7483160,
+      "bytes": "6e64720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553a98",
+      "offset": 5582488,
+      "bytes": "6e64720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: exp",
+      "offset": 7493742,
+      "bytes": "b20065787000",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553ad8",
+      "offset": 7483224,
+      "bytes": "a864720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553ad8",
+      "offset": 5582552,
+      "bytes": "a864720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: pow",
+      "offset": 7493800,
+      "bytes": "fe00706f7700",
+      "unique": false
+    },
+    {
+      "name": "import lookup 0x553ae8",
+      "offset": 7483240,
+      "bytes": "8264720000000000",
+      "unique": false
+    },
+    {
+      "name": "import address 0x553ae8",
+      "offset": 5582568,
+      "bytes": "8264720000000000",
+      "unique": false
+    },
+    {
+      "name": "import name: sin",
+      "offset": 7493762,
+      "bytes": "120173696e00",
+      "unique": false
+    }
+  ],
+  "payloads": [
+    {
+      "file": "tone-code.bin",
+      "section": ".tna1",
+      "rawOffset": 59918336,
+      "size": 3072,
+      "sha256": "0afc125f9f2061127ab156beb74b2988f74a1d6014fa4efb5ac3fc23e3bbe6a7",
+      "description": "Tone-cache ownership and source-format repair code."
+    },
+    {
+      "file": "sound-runtime.bin",
+      "section": ".jrvx",
+      "rawOffset": 59921408,
+      "size": 351232,
+      "sha256": "617e318f531ecce98a1a0605cf1f34a9b3371d04721cba2feee432369af9b156",
+      "description": "Executable room-response, spatial, pause, Ducker, and output repair; includes the combined Windows unwind table."
+    },
+    {
+      "file": "sound-state.bin",
+      "section": ".jrvd",
+      "rawOffset": 60272640,
+      "size": 512,
+      "sha256": "ca82022c1deccb714b671bf28d1eb8c73e8d5f6a5a67050f7d5e69c111f8515f",
+      "description": "Writable state used by the sound runtime; deliberately non-executable."
+    }
+  ],
+  "wholeFileHashPolicy": "provenance-only"
+}
