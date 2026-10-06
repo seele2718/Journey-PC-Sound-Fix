@@ -75,6 +75,21 @@ class PeImage:
                 "characteristics": struct.unpack_from("<I", data, offset + 36)[0],
             }
 
+    def validate_image_layout(self) -> None:
+        """Check contiguous, aligned virtual sections, including zero-fill."""
+        alignment = self.section_alignment
+        require(alignment > 0 and alignment & (alignment - 1) == 0,
+                "Invalid PE section alignment.")
+        expected = align(self.size_of_headers, alignment)
+        for name, section in self.sections.items():
+            require(section["rva"] == expected,
+                    f"Non-adjacent or overlapping PE section {name}: "
+                    f"expected RVA 0x{expected:x}, got 0x{section['rva']:x}.")
+            expected = align(section["rva"] + max(section["virtual_size"],
+                                                   section["raw_size"]), alignment)
+        require(expected == self.size_of_image,
+                "PE SizeOfImage does not match the final section extent.")
+
     def section_data(self, name: str) -> bytes:
         section = self.sections[name]
         start = section["raw_offset"]

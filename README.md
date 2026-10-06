@@ -3,8 +3,15 @@
 Journey PC Sound Fix is a mod by Seele that brings Journey’s PC audio closer
 to the original PlayStation sound experience.
 
-Version **0.3.0**. This folder contains the Journey PC sound fix,
+Version **0.3.1**.
+This folder contains the Journey PC sound fix,
 its installer, and the source used to build it.
+
+### Windows compatibility in 0.3.1
+
+Version 0.3.0 had a gap in the executable's PE memory layout that prevented
+Windows from loading it. Version 0.3.1 corrects the section layout to meet
+Windows' requirements. The sound-processing code and behavior are unchanged.
 
 ## What it changes
 

@@ -54,6 +54,18 @@ patch-owned controls without caching native control reads.
 | `sound-state.bin` / `.jrvd` | Writable non-executable bootstrap state. Larger routing state is allocated once on the heap. |
 | Manifest records | Localized original-image instructions and PE header updates. |
 
+The code section's virtual size includes the zero-filled reserved span up to
+the state section. Its raw file size contains only the actual payload and
+recovery metadata, rounded to file alignment. Both builder and installer reject
+gaps or overlaps between virtual sections; Windows requires adjacent sections.
+
+Version 0.3.0 left a `0xa000`-byte virtual gap between `.jrvx` and `.jrvd`.
+Version 0.3.1 extends `.jrvx`'s virtual size to cover that reserved span, which
+Windows zero-fills. Section addresses, executable sound code, hooks and audio
+constants are unchanged. The PE checksum and recovery metadata are updated;
+recovery reads the file-backed metadata rather than the expanded virtual span.
+This corrects Windows loader compatibility, not sound behavior.
+
 The build omits timing, event and file-log instrumentation. Functional
 identity/lifetime checks and the read-only FMOD compatibility check remain enabled.
 
@@ -72,4 +84,4 @@ exercise the game's own output-device behavior; this is not a device-switch fix.
 
 Fixed-capacity association tables remain bounded. Offline lifecycle and routing
 tests plus gameplay feedback support this implementation, not proof of every
-possible workload. The normal build has passed a brief user gameplay check.
+possible workload.

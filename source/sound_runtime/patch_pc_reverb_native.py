@@ -376,8 +376,15 @@ def make_patch(data: bytes, native_pre_hadamard_late_output: bool = False,
     trial_records = produce(0, 0, 0, 0)
     trial_capsule = capsule(trial_records)
     capsule_offset = align(len(rx_core), 16)
-    rx_virtual_size = capsule_offset + 36 + len(trial_capsule)
-    rx_raw_size = align(rx_virtual_size, pe.file_alignment)
+    rx_content_size = capsule_offset + 36 + len(trial_capsule)
+    rx_raw_size = align(rx_content_size, pe.file_alignment)
+    # The state has a fixed RVA used by the compiled code. Reserve the entire
+    # span up to it, including loader-zero-filled tail pages: Windows image
+    # sections must be adjacent, not merely non-overlapping. Raw file bytes
+    # still end at the capsule's ordinary file-aligned extent.
+    rx_virtual_size = DATA_DELTA
+    require(rx_raw_size <= rx_virtual_size,
+            "Native-reverb payload overlaps the fixed state section.")
     data_raw_offset = raw_start + rx_raw_size
     data_raw_size = align(len(data_bytes), pe.file_alignment)
     records = produce(rx_virtual_size, rx_raw_size,
@@ -403,6 +410,7 @@ def make_patch(data: bytes, native_pre_hadamard_late_output: bool = False,
         output[offset : offset + len(value)] = value
     struct.pack_into("<I", output, checksum_offset,
                      pe_checksum(bytes(output), checksum_offset))
+    JourneyPe(bytes(output)).validate_image_layout()
     report = {
         "patch_version": VERSION,
         "input_sha256_provenance": digest(data),
@@ -452,15 +460,21 @@ def recover_base(data: bytes) -> tuple[bytes, JourneyPe, dict[str, object]]:
             "Native-reverb section permissions changed.")
     require(rw["raw_offset"] + rw["raw_size"] == len(data),
             "Unexpected bytes follow the native-reverb sections.")
-    payload = data[rx["raw_offset"] : rx["raw_offset"] + rx["virtual_size"]]
+    # VirtualSize includes zero-filled memory; only raw bytes contain the
+    # undo capsule. Its length determines the end of initialized content.
+    payload = data[rx["raw_offset"] : rx["raw_offset"] + rx["raw_size"]]
     require(payload.count(MAGIC) == 1, "Missing or ambiguous undo capsule.")
     capsule_at = payload.index(MAGIC)
     require(capsule_at + 36 <= len(payload), "Truncated undo capsule header.")
     length = struct.unpack_from("<I", payload, capsule_at + 32)[0]
-    require(length < CAPSULE_LIMIT and capsule_at + 36 + length == len(payload),
+    capsule_end = capsule_at + 36 + length
+    require(length < CAPSULE_LIMIT and capsule_end <= len(payload) and
+            capsule_end <= rx["virtual_size"],
             "Malformed undo capsule length.")
+    require(payload[capsule_end:] == bytes(len(payload) - capsule_end),
+            "Nonzero native-reverb RX padding.")
     try:
-        metadata = json.loads(payload[capsule_at + 36 :].decode())
+        metadata = json.loads(payload[capsule_at + 36 : capsule_end].decode())
     except (UnicodeDecodeError, ValueError) as exc:
         raise PatchError(f"Invalid undo capsule: {exc}") from exc
     require(metadata.get("schema") == SCHEMA and
@@ -471,10 +485,6 @@ def recover_base(data: bytes) -> tuple[bytes, JourneyPe, dict[str, object]]:
             "Invalid original image size in undo capsule.")
     require(data[base_size : rx["raw_offset"]] == bytes(rx["raw_offset"] - base_size),
             "Nonzero alignment gap before native-reverb RX data.")
-    require(data[rx["raw_offset"] + rx["virtual_size"] :
-                 rx["raw_offset"] + rx["raw_size"]] ==
-            bytes(rx["raw_size"] - rx["virtual_size"]),
-            "Nonzero native-reverb RX padding.")
     require(data[rw["raw_offset"] + rw["virtual_size"] :
                  rw["raw_offset"] + rw["raw_size"]] ==
             bytes(rw["raw_size"] - rw["virtual_size"]),

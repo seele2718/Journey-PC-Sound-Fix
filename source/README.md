@@ -35,6 +35,11 @@ unchanged. Generated code is rebuilt twice to check determinism.
 After all four repairs, the builder recalculates the final executable's PE
 header checksum. This updates file metadata, not sound behavior.
 
+The runtime's code section reserves its complete virtual span up to the state
+section, including a zero-filled tail, so the sections are adjacent as Windows
+requires. File payload length and in-memory section size are distinct. Run
+`python test_pe_layout.py` for the standalone layout regression checks.
+
 `build_sound_fix.py` selects the sound-fix configuration. It retains the
 optimized category updates and cached control writes. The hook-contract table
 defines the native admission, publication and retirement sites; `native_routes.py`

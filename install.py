@@ -90,6 +90,20 @@ def parse_pe(data: bytes) -> dict[str, object]:
             "rawSize": raw_size,
             "rawOffset": raw_offset,
         })
+    # Validate memory layout as well as file bounds. Wine may load a virtual
+    # gap that does not satisfy Windows' adjacent-section image contract.
+    alignment = struct.unpack_from("<I", data, optional + 32)[0]
+    require(alignment > 0 and alignment & (alignment - 1) == 0,
+            "invalid PE section alignment")
+    align = lambda value: (value + alignment - 1) & -alignment
+    expected = align(struct.unpack_from("<I", data, optional + 60)[0])
+    for section in sections:
+        require(section["rva"] == expected,
+                f"non-adjacent or overlapping PE section {section['name']}")
+        expected = align(section["rva"] + max(section["virtualSize"],
+                                               section["rawSize"]))
+    require(expected == struct.unpack_from("<I", data, optional + 56)[0],
+            "PE image size does not match its sections")
     exception_rva, exception_size = struct.unpack_from(
         "<II", data, optional + 112 + 3 * 8
     )

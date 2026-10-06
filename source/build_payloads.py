@@ -181,6 +181,9 @@ def prerequisite_records(base: bytes) -> list[dict[str, object]]:
 
 def build_payloads(base: bytes, target: bytes, output: Path,
                    version: str, label: str) -> dict[str, object]:
+    sys.path.insert(0, str(Path(__file__).resolve().parent / "sound_runtime"))
+    from build_pc_reverb_static_payload import PeImage
+    PeImage(target).validate_image_layout()
     base_pe = parse_pe(base)
     target_pe = parse_pe(target)
     target_sections = {str(item["name"]): item for item in target_pe["sections"]}

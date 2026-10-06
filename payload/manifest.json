@@ -1,6 +1,6 @@
 {
   "schema": "journey-sound-fix-payload-v1",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "label": "normal",
   "baseSize": 59918032,
   "baseSha256Provenance": "16a7c176b9cce893e0ca72c5d0e4b2e7377c4fabec179f95a5e1331b6c2a788f",
@@ -8,8 +8,8 @@
   "baseExceptionSize": 264204,
   "baseExceptionSha256": "7a8dc96a2fda704dba7dbd888a62b29b1be75eb689914e478cba2059a744093c",
   "targetSize": 60273152,
-  "targetSha256": "735d1c5dcd182048d483d7b54bceb581b2bdf6352baeb6779594f198aede557d",
-  "referenceChecksum": 60281613,
+  "targetSha256": "0a73c2fb3a2e5b33f6c38082b966160cd54882fac9efbe09c3ea8dde6fc037ca",
+  "referenceChecksum": 60322720,
   "records": [
     {
       "name": "localized original-image change 1",
@@ -133,11 +133,11 @@
     },
     {
       "name": "localized original-image change 16",
-      "offset": 928,
-      "before": "000000",
-      "after": "0b5a05",
-      "contextOffset": 916,
-      "context": "000000000000000000000000000000000000000000000000000000"
+      "offset": 930,
+      "before": "00",
+      "after": "06",
+      "contextOffset": 918,
+      "context": "00000000000000000000000000000000000000000000000000"
     },
     {
       "name": "localized original-image change 17",
@@ -1042,7 +1042,7 @@
       "section": ".jrvx",
       "rawOffset": 59921408,
       "size": 351232,
-      "sha256": "617e318f531ecce98a1a0605cf1f34a9b3371d04721cba2feee432369af9b156",
+      "sha256": "03de0822a42bf95f967fc3ff216947b3782043db92e7755fc3f2a8cd1ee20281",
       "description": "Executable room-response, spatial, pause, Ducker, and output repair; includes the combined Windows unwind table."
     },
     {
